@@ -77,4 +77,5 @@ def expand(expr):
 
     return ''.join(elementos)
 
+print("A continuación se mostrará el resultado de la expresión '(2f+4)^6': ")
 print(expand("(2f+4)^6"))
