@@ -1,4 +1,4 @@
-<h1 align="center">Alternativa2</h1>
+<h1 align="center">Alternativa 2</h1>
 
 <h3 align="center">Perfil de GitHub del autor de este proyecto:</h3>
 
