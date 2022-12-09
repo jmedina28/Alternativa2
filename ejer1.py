@@ -23,3 +23,18 @@ def valido(tablero, intento, i, j):
                                   for n in range(3) 
                                   for m in range(3))
     return fila_valida and columna_valida and subcuadricula_valida
+
+def sudoku(tablero):
+    for i in range(9):
+        for j in range(9):
+            if tablero[i][j] == 0:
+                for intento in range(1, 10):
+                    if valido(tablero, intento, i, j):
+                        tablero[i][j] = intento
+                        if sudoku(tablero):
+                            return tablero
+                        tablero[i][j] = 0
+                return False    
+    return tablero
+
+print(sudoku(tablero))
