@@ -5,3 +5,13 @@ Un sudoku es un puzzle matemático que se construye sobre una rejilla de 9x9 cas
 ·  No se pueden repetir números en una misma subcuadrícula de 3x3 de las 9 que componen la rejilla.
 ·  Esta función recibe un argumento que consiste en una matriz de 2D. Un valor de 0 representa un cuadrado desconocido.
 El sudoku a resolver ha de estar bien planteado, i.e., ha de tener solución única. Esto se cumple si se parte de unas condiciones iniciales adecuadas, que consisten en números ya fijados en algunas de las casillas del sudoku"""
+
+tablero = [[5,3,0,0,7,0,0,0,0],
+          [6,0,0,1,9,5,0,0,0],
+          [0,9,8,0,0,0,0,6,0],
+          [8,0,0,0,6,0,0,0,3],
+          [4,0,0,8,0,3,0,0,1],
+          [7,0,0,0,2,0,0,0,6],
+          [0,6,0,0,0,0,2,8,0],
+          [0,0,0,4,1,9,0,0,5],
+          [0,0,0,0,8,0,0,7,9]]
